@@ -1,0 +1,63 @@
+﻿/* GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100vw;
+    height: 75px;
+}
+ul {
+    list-style-type: none;
+}
+    ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+.Active {
+    font-weight: bold;
+}
+/* INDEX - HOME PAGE*/
+.carousel .carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100vh;
+    width: 100vw;
+}
+.row img {
+    width: 200px;
+    height: 150px;
+}
+
+/* GALLERY PAGE */
+#gallery img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+#gallery .modal img {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
+/* Responsive for home page*/
+@media only screen and (max-width: 1024px) {
+    /* GENERAL FOR BOTH HOME AND GALLERY*/
+    nav {
+        height: 100px;
+    }
+    /* For home page */
+    .carousel .carousel-item {
+        height: 100vh;
+    }
+    .carousel-item img {
+        height: 100vh;
+        width: 100vw;
+    }
+}
